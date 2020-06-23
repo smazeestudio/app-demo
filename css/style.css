@@ -1,0 +1,101 @@
+body{
+    min-height: 99vh;
+    min-width: 99vw;
+}
+.bg{
+    background-image: url(../img/bluebg.svg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+}
+header{
+    position: relative;
+}
+header .back{
+    padding: 30px;
+}
+header .menu{
+    padding: 30px;
+    float: right;
+}
+.card{
+    background-color: #30C58F;
+    border: none;
+    box-shadow: 6px 10px 32px #0000001C;
+    border-radius: 25px;
+    margin-top: 8px;
+}
+.card-small{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 13px;
+    min-height: 78px;
+    width: 120px;
+    margin: auto;
+    margin-top: -38px;
+}
+.card-small h3{
+    text-align: center;
+    font: Bold 23px/40px Poppins;
+    letter-spacing: 0px;
+    color: #30C58F;
+}
+.card-small p{
+    text-align: center;
+    font: Regular 11px/19px Lato;
+    letter-spacing: 0px;
+    color: #435E77;
+}
+
+.btn-outline ,.btn-outline:hover{
+    border: 1px solid #FDFDFD;
+    border-radius: 24px;
+    color: #fff;
+    width: 50%;
+    margin: 10px auto;
+    height: 28px;
+    padding: 0;
+    outline: none;
+}
+.card input{
+    border-radius: 24px;
+    height: 36px;
+    padding: 4px 2px 4px 24px;
+    font-size: 12px;
+    width: 72%;
+    display: inline-block;
+    border: none;
+}
+::placeholder {
+    color: #435E7751;
+    opacity: 1;
+}
+.card .btn-bookmark{
+    border: 1px solid #FDFDFD;
+    border-radius: 24px;
+    width: 48px;
+    height: 25px;
+    padding: 0;
+}
+.card .btn-bookmark::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.355em;
+    vertical-align: 0.155em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    color: #fff;
+}
+.card .btn-submit{
+    border-radius: 24px;
+    background-color: #fff;
+    color: #30C58F;
+    margin-bottom: 12px;
+    font-size: 12px;
+    padding: 8px 24px;
+}
